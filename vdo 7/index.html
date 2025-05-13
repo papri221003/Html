@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms~Let's learn it</title>
+</head>
+<body>
+  <form>
+    <h1>Application for NEET Exam</h1>
+    <label for="name">Enter your Name</label>
+    <input type="Text" id="name" name="Username" placeholder="Enter Your Name">
+    
+    <div>
+     <h4>Gender</h4>   
+    <label for="Male">Male</label>
+    <input type="radio" id="Male" name="Gender" value="Male">
+    <label for="Female">Female</label>
+    <input type="radio" id="Female" name="Gender" value="Female">
+    </div>
+    
+    <div>
+    <h4>Documents provided</h4>
+     <label for="10th">10th</label>
+     <input type="checkbox" id="10th" name="certificates" value="10th">
+     <label for="12th">12th</label>
+     <input type="checkbox" id="12th" name="certificates" value="12th">
+     <label for="Aadhaar card">Aadhaar card</label>
+     <input type="checkbox" id="Aadhaar card" name="certis" value="Aadhaar card">
+     <label for="Residential certificates">Residential certificates</label>
+     <input type="checkbox" id="Residential certificates" name="certificates" value="Residential certificates">
+    </div>
+    <div>
+     <!--<label for="comment">About your self</label>-->
+     <h4>About yourself</h4>
+     <textarea id="comment" name="comment" row="78" coloumn="85">Enter your text</textarea>    
+    </div>
+    <div>
+      <h3>Id proof</h3>
+      <select name="Id proof">
+       <option value="10th certificate">10th certificate</option>
+       <option value="Birth certificate">Birth certificates</option>
+       <option value="10th Admit card">10th Admit card</option>
+       <option value="Admission documents">Admission documents</option>
+     </select>   
+    </div>
+    <br>
+    <input type="submit" value="submit">
+  </form>  
+</body>
+</html>
